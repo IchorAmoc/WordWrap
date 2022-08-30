@@ -1,3 +1,4 @@
+const colors = require('colors')
 
 class Wrapper {
     // Wraps strings
@@ -43,14 +44,14 @@ class Wrapper {
 }
 
 // Outputs
-console.log('Shorter string | 10 Length')
+console.log('Shorter string | 10 Length' .blue)
 console.log(Wrapper.Wrap('Hello there I am a string.', 10))
 console.log() // Empty line
-console.log('Lorem ipsum text | 56 Length')
+console.log('Lorem ipsum text | 56 Length' .blue)
 console.log(Wrapper.Wrap('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 56))
 console.log() // Empty line
-console.log('Shorter than max length | 30 Length')
+console.log('Shorter than max length | 30 Length' .blue)
 console.log(Wrapper.Wrap('Hello there I am a string.', 30))
 console.log() // Empty line
-console.log('OneLongWord | 6 Length')
+console.log('OneLongWord | 6 Length' .blue)
 console.log(Wrapper.Wrap('HelloThereIAmALongWord.', 6))
